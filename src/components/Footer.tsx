@@ -42,14 +42,24 @@ const Footer: React.FC = () => {
 
           {/* Customer Service */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Customer Service</h3>
-            <ul className="space-y-2">
-              <li><Link to="/faq" className="text-white hover:text-teal-400">FAQ</Link></li>
-              <li><Link to="/shipping" className="text-white hover:text-teal-400">Shipping Policy</Link></li>
-              <li><Link to="/returns" className="text-white hover:text-teal-400">Returns & Refunds</Link></li>
-              <li><Link to="/privacy" className="text-white hover:text-teal-400">Privacy Policy</Link></li>
-              <li><Link to="/terms" className="text-white hover:text-teal-400">Terms & Conditions</Link></li>
-            </ul>
+           <ul className="space-y-2 text-sm text-gray-300">
+  <li>
+    <span className="text-white font-medium">FAQ:</span> Get answers to the most commonly asked questions about our products, shipping, payments, and more.
+  </li>
+  <li>
+    <span className="text-white font-medium">Shipping Policy:</span> Orders are processed within 1–2 business days. Delivery may take 3–7 business days depending on location.
+  </li>
+  <li>
+    <span className="text-white font-medium">Returns & Refunds:</span> You can return the product within 7 days of delivery. Refunds will be processed within 5 working days after approval.
+  </li>
+  <li>
+    <span className="text-white font-medium">Privacy Policy:</span> We value your privacy. All personal data is encrypted and never shared without consent.
+  </li>
+  <li>
+    <span className="text-white font-medium">Terms & Conditions:</span> By using our services, you agree to our terms regarding purchases, warranties, and support.
+  </li>
+</ul>
+
           </div>
 
           {/* Contact Info */}
@@ -58,15 +68,15 @@ const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <MapPin size={20} className="text-teal-400 flex-shrink-0 mt-1" />
-                <span className="text-white">123 Tech Street, Digital City, 12345</span>
+                <span className="text-white">VPO Malhot61 Teh Jhandutta Distt. Bilaspur (H.P) </span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone size={20} className="text-teal-400 flex-shrink-0" />
-                <span className="text-white">+91 98765 43210</span>
+                <span className="text-white">+91 8219373551</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail size={20} className="text-teal-400 flex-shrink-0" />
-                <span className="text-white">info@bitsstore.com</span>
+                <span className="text-white">gauravsureel3551@gmail.com</span>
               </li>
             </ul>
           </div>
