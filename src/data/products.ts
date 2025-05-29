@@ -6,7 +6,7 @@ export const laptops: Product[] = [
     name: 'MacBook Pro 14" M3 Pro',
     brand: 'Apple',
     category: 'laptops',
-    price: 199900,
+    price: 1,
     discount: 5,
     image: 'https://images.pexels.com/photos/303383/pexels-photo-303383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     images: [
