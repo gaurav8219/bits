@@ -10,7 +10,7 @@ const HeroBanner: React.FC = () => {
       <div
         className="absolute inset-0 bg-cover bg-center opacity-40"
         style={{
-          backgroundImage: `url('/HeroBanner.jpg')`,
+          backgroundImage: `url('public/HeroBanner02.jpg')`,
         }}
       ></div>
       <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-transparent" />

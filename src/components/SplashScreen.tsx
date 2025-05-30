@@ -35,7 +35,7 @@ const SplashScreen: React.FC = () => {
       {/* Right Side Animated Image */}
       <div className="w-1/2 relative z-10 flex justify-center items-center">
         <motion.img
-          src="/SplashScreen.png" // ✅ Use forward slashes & place image in public folder
+          src="public/SplashScreen01.png" // ✅ Use forward slashes & place image in public folder
           alt="BITS Store"
           className="w-3/4 h-auto object-cover rounded-lg shadow-xl"
           initial={{ opacity: 0, scale: 0.8, y: 50 }}

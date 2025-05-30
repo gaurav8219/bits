@@ -162,7 +162,7 @@ const Header: React.FC = () => {
             <Link to="/?category=accessories" className="text-white hover:text-primary-DEFAULT text-sm">Accessories</Link>
             <Link to="/?category=deals" className="text-white hover:text-primary-DEFAULT text-sm">Deals</Link>
             <Link to="/?category=new" className="text-white hover:text-primary-DEFAULT text-sm">New Arrivals</Link>
-            <Link to="/?category=new" className="text-white hover:text-primary-DEFAULT text-sm">Order</Link>
+          
           </nav>
         </div>
       </div>
